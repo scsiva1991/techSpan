@@ -1,0 +1,243 @@
+/*html, body, #root, .main-container {
+  height: 100%;
+}*/
+
+body {
+  background: #eee !important;
+  padding-top: 70px;
+}
+
+.repo-owner-name , .repo-owner-blog, .repo-owner-location {
+  font-size: 20px;
+}
+
+.repo-list {
+  background: #fff;
+  margin : 10px;
+  padding: 10px;
+  color: #000;
+}
+
+.repo-count {
+  font-size: 30px;
+}
+
+.repo-list-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.repo-url {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.repo-desc, .repo-last-updated, .repo-lang {
+  color: grey;
+}
+
+.repo-circle, .repo-star {
+  color: #F1E05A;
+}
+
+
+.repo-last-updated {
+  margin-top: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: 35px;
+  margin-top: -7px;
+}
+
+.language-list {
+  background: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.mg-t-25 {
+    margin-top: 25px;
+}
+
+.mg-t-10 {
+    margin-top: 10px;
+}
+
+#overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(245, 245, 239,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#loader {
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  z-index: 1;
+  width:  50px;
+  height:  50px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.mg-t-5 {
+  margin-top: 5px;
+}
+
+.alert-fadeout {
+  opacity: 0;
+  animation: fade 1s linear;
+}
+
+@keyframes fade {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.seller-profile {
+  width: 70px;
+  height: 70px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+  height: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.btn-add {
+  margin-bottom: 20px;
+}
+
+.btn-add-icon {
+  margin-right: 5px;
+}
+
+.fa-sign-out {
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Nav bar customization starts here */
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+.navbar-default .navbar-brand {
+  color: #eeeeee;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #eeeeee;
+}
+.navbar-default .navbar-text {
+  color: #eeeeee;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #eeeeee;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #eeeeee;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #eeeeee;
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #eeeeee;
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #eeeeee;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #eeeeee;
+}
+.navbar-default .navbar-link {
+  color: #eeeeee;
+}
+.navbar-default .navbar-link:hover {
+  color: #eeeeee;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #eeeeee;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #eeeeee;
+    background-color: #ffffff;
+  }
+}
+
+/* Nav bar customization ends here */
